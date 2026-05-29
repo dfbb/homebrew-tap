@@ -1,14 +1,14 @@
 class Kfcode < Formula
   desc "KFCode CLI — an AI-powered coding agent"
   homepage "https://github.com/dfbb/KFCode"
-  version "0.1.1"
+  version "0.1.2"
   if OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/dfbb/KFCode/releases/download/v0.1.1/kfcode-cli-aarch64-apple-darwin.tar.gz"
-    sha256 "d2c7720dc9b9e38f6828155d7d57cb4aff6b0e4f1b2cc2d807bbfab533301c18"
+    url "https://github.com/dfbb/KFCode/releases/download/v0.1.2/kfcode-cli-aarch64-apple-darwin.tar.gz"
+    sha256 "a2428a628d99a1d24b08dbb575ae2424ff0e65e41ebf71dc3b5a542adefc6a95"
   end
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/dfbb/KFCode/releases/download/v0.1.1/kfcode-cli-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "dfb2e4ba2bd91d8c2b8d7d2da54d879d27a845d95b64c140fbefd9158153df7e"
+    url "https://github.com/dfbb/KFCode/releases/download/v0.1.2/kfcode-cli-x86_64-unknown-linux-gnu.tar.gz"
+    sha256 "af5cfab30ef1985d00ca63041df4562fb10c7260858bbfba18b08454a146c274"
   end
   license "MIT"
 
